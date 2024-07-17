@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:#fefae0;
+    color: #344e41;
+    
+    text-align: center;
+}
+.box{
+    height: 25vh;
+    width: 25vw;
+    margin: 10px 7px;
+    border-radius: 25px;
+    background-color: white;
+    border: 5px solid #dda15e;
+    box-shadow: 0 0 1rem #424242;
+    font-size: 60px;
+    color: #283618;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    
+}
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    /* padding: 2px 2px;
+    margin: 20px 20px; */
+    
+}
+.box:hover{
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+.new{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    margin: 5px 30px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgba(250, 235, 215, 0.087);
+    border: 1px solid #6c584c;
+    color: #344e41;
+    font-weight: bold;
+}
+
+.new:hover{
+    cursor: pointer;
+    background-color: #a3b18a;
+}
+#msg{
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-weight: bold;
+   
+}
+.hide{
+    visibility: hidden; /*initially hide winning msg*/
+
+}
+.winning-box {
+    background-color: #dde5b6; /* Change this to any color you prefer */
+}
